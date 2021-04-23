@@ -8,6 +8,10 @@ body::-webkit-scrollbar {
     display: none; 
 }
 
+p {
+  word-spacing: 0.02rem;
+}
+
 
 /* Body Header */
 
@@ -181,7 +185,6 @@ section:nth-child(2n + 1) {
 #about-para {
     padding: 10px;
     width: 70%;
-    text-align: justify;
     color: grey;
     line-height: 28px;
     font-size: 1.1rem;
@@ -502,7 +505,11 @@ button:focus {
 }
 
 .text-justify {
+    
     text-align: justify;
+    text-justify: distribute;
+    text-align-last: left;
+    
 }
 
 /* Common Margin Classes */
